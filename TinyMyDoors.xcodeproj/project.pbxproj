@@ -7,14 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213E6ED74A140F548D00E35A /* Pods_TinyMyDoorsExtension_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B065F433A2D825C5825E9C1E /* Pods_TinyMyDoorsExtension_Extension.framework */; };
+		29D7277346D59650CB3FE60E /* Pods_TinyMyDoors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9744AF71646E3AB27B50E5 /* Pods_TinyMyDoors.framework */; };
 		E12CDE311E0C51A000F1E593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CDE301E0C51A000F1E593 /* AppDelegate.swift */; };
 		E12CDE331E0C51A000F1E593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CDE321E0C51A000F1E593 /* ViewController.swift */; };
 		E12CDE361E0C51A000F1E593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12CDE341E0C51A000F1E593 /* Main.storyboard */; };
 		E12CDE381E0C51A000F1E593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12CDE371E0C51A000F1E593 /* Assets.xcassets */; };
 		E12CDE3B1E0C51A000F1E593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12CDE391E0C51A000F1E593 /* LaunchScreen.storyboard */; };
+		E14AFCA81E0DF7900073499F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15157551E0C851F00403DDF /* Assets.xcassets */; };
+		E151573E1E0C851F00403DDF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E151573C1E0C851F00403DDF /* Interface.storyboard */; };
+		E15157401E0C851F00403DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E151573F1E0C851F00403DDF /* Assets.xcassets */; };
+		E15157471E0C851F00403DDF /* TinyMyDoorsExtension Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E15157461E0C851F00403DDF /* TinyMyDoorsExtension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E151574E1E0C851F00403DDF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151574D1E0C851F00403DDF /* InterfaceController.swift */; };
+		E15157501E0C851F00403DDF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151574F1E0C851F00403DDF /* ExtensionDelegate.swift */; };
+		E15157521E0C851F00403DDF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15157511E0C851F00403DDF /* NotificationController.swift */; };
+		E15157541E0C851F00403DDF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15157531E0C851F00403DDF /* ComplicationController.swift */; };
+		E15157561E0C851F00403DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15157551E0C851F00403DDF /* Assets.xcassets */; };
+		E151575A1E0C851F00403DDF /* TinyMyDoorsExtension.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E151573A1E0C851F00403DDF /* TinyMyDoorsExtension.app */; };
+		E1878D7D1E0C710800F48CAB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1878D7C1E0C710800F48CAB /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E15157481E0C851F00403DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12CDE251E0C51A000F1E593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15157451E0C851F00403DDF;
+			remoteInfo = "TinyMyDoorsExtension Extension";
+		};
+		E15157581E0C851F00403DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12CDE251E0C51A000F1E593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15157391E0C851F00403DDF;
+			remoteInfo = TinyMyDoorsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E151575E1E0C851F00403DDF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E15157471E0C851F00403DDF /* TinyMyDoorsExtension Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15157621E0C851F00403DDF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E151575A1E0C851F00403DDF /* TinyMyDoorsExtension.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2F9744AF71646E3AB27B50E5 /* Pods_TinyMyDoors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyMyDoors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEF1F87FE3EC37B52C5E7ED /* Pods-TinyMyDoorsExtension Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyMyDoorsExtension Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinyMyDoorsExtension Extension/Pods-TinyMyDoorsExtension Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		95043D853719BED7D0422FED /* Pods-TinyMyDoors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyMyDoors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinyMyDoors/Pods-TinyMyDoors.debug.xcconfig"; sourceTree = "<group>"; };
+		951769C64FDAB34178B2EFC8 /* Pods-TinyMyDoorsExtension Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyMyDoorsExtension Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinyMyDoorsExtension Extension/Pods-TinyMyDoorsExtension Extension.release.xcconfig"; sourceTree = "<group>"; };
+		B065F433A2D825C5825E9C1E /* Pods_TinyMyDoorsExtension_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyMyDoorsExtension_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12CDE2D1E0C51A000F1E593 /* TinyMyDoors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyMyDoors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12CDE301E0C51A000F1E593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E12CDE321E0C51A000F1E593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,24 +82,79 @@
 		E12CDE371E0C51A000F1E593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E12CDE3A1E0C51A000F1E593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E12CDE3C1E0C51A000F1E593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E151573A1E0C851F00403DDF /* TinyMyDoorsExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyMyDoorsExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E151573D1E0C851F00403DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E151573F1E0C851F00403DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15157411E0C851F00403DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15157461E0C851F00403DDF /* TinyMyDoorsExtension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TinyMyDoorsExtension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E151574C1E0C851F00403DDF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E151574D1E0C851F00403DDF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E151574F1E0C851F00403DDF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E15157511E0C851F00403DDF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E15157531E0C851F00403DDF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		E15157551E0C851F00403DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15157571E0C851F00403DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1878D7C1E0C710800F48CAB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E1878D7E1E0C74BE00F48CAB /* TinyMyDoors.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TinyMyDoors.entitlements; sourceTree = "<group>"; };
+		F80A71B5E6B81BE2BE58BD33 /* Pods-TinyMyDoors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyMyDoors.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinyMyDoors/Pods-TinyMyDoors.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E12CDE2A1E0C51A000F1E593 /* Frameworks */ = {
+		995C8DA242A9CDA71E7D3611 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E12CDE2A1E0C51A000F1E593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D7277346D59650CB3FE60E /* Pods_TinyMyDoors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15157431E0C851F00403DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213E6ED74A140F548D00E35A /* Pods_TinyMyDoorsExtension_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		542CF762688888B8E32CEA5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95043D853719BED7D0422FED /* Pods-TinyMyDoors.debug.xcconfig */,
+				F80A71B5E6B81BE2BE58BD33 /* Pods-TinyMyDoors.release.xcconfig */,
+				6BEF1F87FE3EC37B52C5E7ED /* Pods-TinyMyDoorsExtension Extension.debug.xcconfig */,
+				951769C64FDAB34178B2EFC8 /* Pods-TinyMyDoorsExtension Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7D60BA5A4849C9E05C8B314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F9744AF71646E3AB27B50E5 /* Pods_TinyMyDoors.framework */,
+				B065F433A2D825C5825E9C1E /* Pods_TinyMyDoorsExtension_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E12CDE241E0C51A000F1E593 = {
 			isa = PBXGroup;
 			children = (
 				E12CDE2F1E0C51A000F1E593 /* TinyMyDoors */,
+				E151573B1E0C851F00403DDF /* TinyMyDoorsExtension */,
+				E151574A1E0C851F00403DDF /* TinyMyDoorsExtension Extension */,
 				E12CDE2E1E0C51A000F1E593 /* Products */,
+				542CF762688888B8E32CEA5E /* Pods */,
+				D7D60BA5A4849C9E05C8B314 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				E12CDE2D1E0C51A000F1E593 /* TinyMyDoors.app */,
+				E151573A1E0C851F00403DDF /* TinyMyDoorsExtension.app */,
+				E15157461E0C851F00403DDF /* TinyMyDoorsExtension Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +171,48 @@
 		E12CDE2F1E0C51A000F1E593 /* TinyMyDoors */ = {
 			isa = PBXGroup;
 			children = (
+				E1878D7E1E0C74BE00F48CAB /* TinyMyDoors.entitlements */,
 				E12CDE301E0C51A000F1E593 /* AppDelegate.swift */,
 				E12CDE321E0C51A000F1E593 /* ViewController.swift */,
 				E12CDE341E0C51A000F1E593 /* Main.storyboard */,
 				E12CDE371E0C51A000F1E593 /* Assets.xcassets */,
 				E12CDE391E0C51A000F1E593 /* LaunchScreen.storyboard */,
 				E12CDE3C1E0C51A000F1E593 /* Info.plist */,
+				E1878D7C1E0C710800F48CAB /* NetworkManager.swift */,
 			);
 			path = TinyMyDoors;
+			sourceTree = "<group>";
+		};
+		E151573B1E0C851F00403DDF /* TinyMyDoorsExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E151573C1E0C851F00403DDF /* Interface.storyboard */,
+				E151573F1E0C851F00403DDF /* Assets.xcassets */,
+				E15157411E0C851F00403DDF /* Info.plist */,
+			);
+			path = TinyMyDoorsExtension;
+			sourceTree = "<group>";
+		};
+		E151574A1E0C851F00403DDF /* TinyMyDoorsExtension Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E151574D1E0C851F00403DDF /* InterfaceController.swift */,
+				E151574F1E0C851F00403DDF /* ExtensionDelegate.swift */,
+				E15157511E0C851F00403DDF /* NotificationController.swift */,
+				E15157531E0C851F00403DDF /* ComplicationController.swift */,
+				E15157551E0C851F00403DDF /* Assets.xcassets */,
+				E15157571E0C851F00403DDF /* Info.plist */,
+				E151574B1E0C851F00403DDF /* Supporting Files */,
+			);
+			path = "TinyMyDoorsExtension Extension";
+			sourceTree = "<group>";
+		};
+		E151574B1E0C851F00403DDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E151574C1E0C851F00403DDF /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,18 +222,61 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E12CDE3F1E0C51A000F1E593 /* Build configuration list for PBXNativeTarget "TinyMyDoors" */;
 			buildPhases = (
+				E3A9A0B6DCA1C8873277520B /* [CP] Check Pods Manifest.lock */,
 				E12CDE291E0C51A000F1E593 /* Sources */,
 				E12CDE2A1E0C51A000F1E593 /* Frameworks */,
 				E12CDE2B1E0C51A000F1E593 /* Resources */,
+				C5E68741B0F751084D641D07 /* [CP] Embed Pods Frameworks */,
+				6FF0510393EDAFC13AD0F6DF /* [CP] Copy Pods Resources */,
+				E15157621E0C851F00403DDF /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E15157591E0C851F00403DDF /* PBXTargetDependency */,
 			);
 			name = TinyMyDoors;
 			productName = TinyMyDoors;
 			productReference = E12CDE2D1E0C51A000F1E593 /* TinyMyDoors.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E15157391E0C851F00403DDF /* TinyMyDoorsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E151575F1E0C851F00403DDF /* Build configuration list for PBXNativeTarget "TinyMyDoorsExtension" */;
+			buildPhases = (
+				E15157381E0C851F00403DDF /* Resources */,
+				E151575E1E0C851F00403DDF /* Embed App Extensions */,
+				995C8DA242A9CDA71E7D3611 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15157491E0C851F00403DDF /* PBXTargetDependency */,
+			);
+			name = TinyMyDoorsExtension;
+			productName = TinyMyDoorsExtension;
+			productReference = E151573A1E0C851F00403DDF /* TinyMyDoorsExtension.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E15157451E0C851F00403DDF /* TinyMyDoorsExtension Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E151575B1E0C851F00403DDF /* Build configuration list for PBXNativeTarget "TinyMyDoorsExtension Extension" */;
+			buildPhases = (
+				B1B499CAA769B24F07DEFD4A /* [CP] Check Pods Manifest.lock */,
+				E15157421E0C851F00403DDF /* Sources */,
+				E15157431E0C851F00403DDF /* Frameworks */,
+				E15157441E0C851F00403DDF /* Resources */,
+				1FFA9FA27CC6B7DF50B53005 /* [CP] Embed Pods Frameworks */,
+				DEA099950934D7207A3794B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TinyMyDoorsExtension Extension";
+			productName = "TinyMyDoorsExtension Extension";
+			productReference = E15157461E0C851F00403DDF /* TinyMyDoorsExtension Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +289,21 @@
 				ORGANIZATIONNAME = "Florent THOMAS-MOREL";
 				TargetAttributes = {
 					E12CDE2C1E0C51A000F1E593 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9JPSY4Q8SW;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					E15157391E0C851F00403DDF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9JPSY4Q8SW;
+						ProvisioningStyle = Automatic;
+					};
+					E15157451E0C851F00403DDF = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9JPSY4Q8SW;
 						ProvisioningStyle = Automatic;
@@ -115,6 +324,8 @@
 			projectRoot = "";
 			targets = (
 				E12CDE2C1E0C51A000F1E593 /* TinyMyDoors */,
+				E15157391E0C851F00403DDF /* TinyMyDoorsExtension */,
+				E15157451E0C851F00403DDF /* TinyMyDoorsExtension Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -126,23 +337,159 @@
 			files = (
 				E12CDE3B1E0C51A000F1E593 /* LaunchScreen.storyboard in Resources */,
 				E12CDE381E0C51A000F1E593 /* Assets.xcassets in Resources */,
+				E14AFCA81E0DF7900073499F /* Assets.xcassets in Resources */,
 				E12CDE361E0C51A000F1E593 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E15157381E0C851F00403DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15157401E0C851F00403DDF /* Assets.xcassets in Resources */,
+				E151573E1E0C851F00403DDF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15157441E0C851F00403DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15157561E0C851F00403DDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FFA9FA27CC6B7DF50B53005 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinyMyDoorsExtension Extension/Pods-TinyMyDoorsExtension Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FF0510393EDAFC13AD0F6DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinyMyDoors/Pods-TinyMyDoors-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B499CAA769B24F07DEFD4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E68741B0F751084D641D07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinyMyDoors/Pods-TinyMyDoors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA099950934D7207A3794B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinyMyDoorsExtension Extension/Pods-TinyMyDoorsExtension Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A9A0B6DCA1C8873277520B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E12CDE291E0C51A000F1E593 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1878D7D1E0C710800F48CAB /* NetworkManager.swift in Sources */,
 				E12CDE331E0C51A000F1E593 /* ViewController.swift in Sources */,
 				E12CDE311E0C51A000F1E593 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E15157421E0C851F00403DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15157521E0C851F00403DDF /* NotificationController.swift in Sources */,
+				E15157541E0C851F00403DDF /* ComplicationController.swift in Sources */,
+				E15157501E0C851F00403DDF /* ExtensionDelegate.swift in Sources */,
+				E151574E1E0C851F00403DDF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E15157491E0C851F00403DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15157451E0C851F00403DDF /* TinyMyDoorsExtension Extension */;
+			targetProxy = E15157481E0C851F00403DDF /* PBXContainerItemProxy */;
+		};
+		E15157591E0C851F00403DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15157391E0C851F00403DDF /* TinyMyDoorsExtension */;
+			targetProxy = E15157581E0C851F00403DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E12CDE341E0C51A000F1E593 /* Main.storyboard */ = {
@@ -159,6 +506,14 @@
 				E12CDE3A1E0C51A000F1E593 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E151573C1E0C851F00403DDF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E151573D1E0C851F00403DDF /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -185,7 +540,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Florent THOMAS-MOREL (66RN77TEW4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -207,6 +562,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "feb6b25f-00eb-42b1-a864-6e0734a47dd3";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -235,7 +591,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Florent THOMAS-MOREL (9JPSY4Q8SW)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -250,6 +606,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "4616d2e5-e7cd-42a3-9c9d-448854818057";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -259,27 +616,120 @@
 		};
 		E12CDE401E0C51A000F1E593 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95043D853719BED7D0422FED /* Pods-TinyMyDoors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TinyMyDoors/TinyMyDoors.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9JPSY4Q8SW;
 				INFOPLIST_FILE = TinyMyDoors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.thomasmorel.TinyMyDoors;
+				PRODUCT_BUNDLE_IDENTIFIER = io.thomasmorel.mydoors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E12CDE411E0C51A000F1E593 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80A71B5E6B81BE2BE58BD33 /* Pods-TinyMyDoors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TinyMyDoors/TinyMyDoors.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9JPSY4Q8SW;
 				INFOPLIST_FILE = TinyMyDoors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.thomasmorel.TinyMyDoors;
+				PRODUCT_BUNDLE_IDENTIFIER = io.thomasmorel.mydoors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E151575C1E0C851F00403DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEF1F87FE3EC37B52C5E7ED /* Pods-TinyMyDoorsExtension Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9JPSY4Q8SW;
+				INFOPLIST_FILE = "TinyMyDoorsExtension Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.thomasmorel.mydoors.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		E151575D1E0C851F00403DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951769C64FDAB34178B2EFC8 /* Pods-TinyMyDoorsExtension Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9JPSY4Q8SW;
+				INFOPLIST_FILE = "TinyMyDoorsExtension Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.thomasmorel.mydoors.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		E15157601E0C851F00403DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9JPSY4Q8SW;
+				IBSC_MODULE = TinyMyDoorsExtension_Extension;
+				INFOPLIST_FILE = TinyMyDoorsExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = io.thomasmorel.mydoors.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		E15157611E0C851F00403DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9JPSY4Q8SW;
+				IBSC_MODULE = TinyMyDoorsExtension_Extension;
+				INFOPLIST_FILE = TinyMyDoorsExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = io.thomasmorel.mydoors.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Release;
 		};
@@ -302,6 +752,25 @@
 				E12CDE411E0C51A000F1E593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E151575B1E0C851F00403DDF /* Build configuration list for PBXNativeTarget "TinyMyDoorsExtension Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E151575C1E0C851F00403DDF /* Debug */,
+				E151575D1E0C851F00403DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E151575F1E0C851F00403DDF /* Build configuration list for PBXNativeTarget "TinyMyDoorsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15157601E0C851F00403DDF /* Debug */,
+				E15157611E0C851F00403DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

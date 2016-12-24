@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TinyMyDoorsExtension (Complication).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>TinyMyDoorsExtension (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>TinyMyDoorsExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>E12CDE2C1E0C51A000F1E593</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E15157391E0C851F00403DDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
