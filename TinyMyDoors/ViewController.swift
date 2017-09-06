@@ -101,7 +101,8 @@ class ViewController: UIViewController, CAAnimationDelegate, WCSessionDelegate, 
     func initView(){
         let radius = CGFloat(self.button.frame.width/2-13)
         self.circle = CAShapeLayer()
-        let bezier:UIBezierPath = (UIBezierPath(roundedRect: (rect: CGRect(x: 0, y: 0, width: 2*radius, height: 2*radius)), cornerRadius: radius))
+        let rec: CGRect = CGRect(x: 0, y: 0, width: 2*radius, height: 2*radius)
+        let bezier:UIBezierPath = (UIBezierPath(roundedRect: rec, cornerRadius: radius))
         self.circle.path = bezier.cgPath
         let x = (self.button.frame.midX-radius)
         let y = (self.button.frame.midY-radius)
